@@ -1,0 +1,570 @@
+Raw
+
+Blame
+
+History
+
+72 lines (50 sloc) 2.65 KB
+
+<!DOCTYPE html>
+
+<html lang = "de">
+
+<html>
+
+<head>
+
+<meta charset="utf-8"/>
+
+<title>2DHIF_CheatSheet02</title>
+
+</head>
+
+<body>
+
+<h1>CheatSheet02</h1>
+
+<h3>Basics</h3>
+
+<p><u>HTML Headings:</u></p>
+
+<p>HTML headings are defined with the &lth1&gt to &lth6&gt tags.<p>
+
+
+
+<p><u>HTML Paragraphs:</u></p>
+
+<p>HTML paragraphs are defined with the &ltp&gt tag:</p>
+
+<p><u>HTML Links:</u></p>
+
+<p>HTML links are defined with the &lta&gt tag:</p>
+
+<p>Example: &lta href="https://www.w3schools.com">This is a link &lt/a&gt</p>
+
+
+<p><u>HTML Images:</u></p>
+
+
+<p>HTML images are defined with the &ltimg&gt> tag.</p>
+<p>The source file (src), alternative text (alt), width, and height are provided as attributes:</p>
+<p>Example: &ltimg src  ="w3schools.jpg" alt="W3Schools.com" width="104" height="142"&gt </p>
+
+
+
+<p><u>HTML Buttons:</u></p>
+
+<p>HTML buttons are defined with the  &ltbutton&gt tag.</p>
+
+
+<p><u>HTML Lists:</u></p>
+<p>HTML lists are defined with the &ltul&gt  (unordered/bullet list) or the &ltol&gt (ordered/numbered list) tag, followed by &ltli&gt tags (list items):</p>
+
+<hr>
+
+<h3>Html elements</h3>
+
+<p>An HTML element usually consists of a start tag and end tag, with the content inserted in between:</p>
+
+<p>&lttagname&gt Content goes here...&lt/tagname&gt</p>
+
+<p>All HTML documents consist of nested HTML elements.</p>
+
+<hr>
+
+
+
+<h3>Attributes</h3>
+
+
+
+<p>Attributes provide additional information about HTML elements.</p>
+
+
+
+<p><u>The href Attribute:</u></p>
+
+<p> The link address is specified in the href attribute:</p>
+
+<p>&lta href = "https://www.w3schools.com"&gt This is a link &lt/a></p>
+
+
+
+<p><u>The src Attribute:</u></p>
+
+<p>The filename of the image source is specified in the src attribute:</p>
+
+<p>&ltimg src="img_girl.jpg"><p>
+
+
+
+<p><u>The widh and height Attributes:</u></p>
+
+<p>Images in HTML have a set of size attributes, which specifies the width and height of the image:</p>
+
+<p>&ltimg src="img_girl.jpg" width="500" height="600"></p>
+
+
+
+<p><u>The alt Attribute:</u></p>
+
+<p>The alt attribute specifies an alternative text to be used, when an image cannot be displayed.</p>
+
+<p>&ltimg src="img_girl.jpg" alt="Girl with a jacket"></p>
+
+
+
+<p><u>The style Attribute:</u></p>
+
+<p>The style attribute is used to specify the styling of an element, like color, font, size etc.<p>
+
+<p>&ltp style="color:red">I am a paragraph &lt/p&gt</p>
+
+
+
+<p><u>The lang Attribute:</u></p>
+
+<p>The language of the document can be declared in the <html> tag.</p>
+
+<hr>
+
+<h3>Headings</h3>
+
+
+
+<p><u>Bigger Headings:</u></p>
+
+<p>You can specify the size for any heading with the style attribute, using the CSS font-size property:</p>
+
+<p>&lth1 style="font-size:60px;">Heading 1 &lt/h1&gt</p>
+
+
+
+<p><u>HTML Horizontal Rules:</u></p>
+
+<p>The &lthr&gt element is used to separate content in an HTML page:</p>
+
+
+
+<p>The HTML &lthead&gt element has nothing to do with HTML headings.The &lthead&gt element is a container for metadata.</p>
+
+<hr>
+
+
+
+<h3>Paragraphs</h3>
+
+
+
+<p><u>HTML Line Breaks:</u></p>
+
+<p>The HTML &ltbr&gt element defines a line break.</p>
+
+
+
+<p><u>The HTML &ltpre&gt Element:</u></p>
+
+<p>The HTML &ltpre&gt element defines preformatted text.</p>
+
+<hr>
+
+
+
+<h3>Comments</h3>
+
+<p><u>HTML Comment Tags:</u></p>
+
+<p>You can add comments to your HTML source by using the following syntax:</p>
+
+<p>&lt!-- Write your comments here --&gt</p>
+
+<hr>
+
+
+
+<h3>Links</h3>
+
+
+
+<p><u>HTML Links - The target Attribute:</u></p>
+
+<p>The target attribute specifies where to open the linked document.</p>
+
+<p>&lta href="https://www.w3schools.com/" target="_blank">Visit W3Schools! &lt/a&gt</p>
+
+
+
+<p><u>HTML Links - The target Attribute:</u></p>
+
+<p>The target attribute specifies extra information about an element.</p>
+
+
+
+<p><u>HTML Links - Create a Bookmark:</u></p>
+
+<p>HTML bookmarks are used to allow readers to jump to specific parts of a Web page.</p>
+
+
+
+<p><u>HTML Links - Create a Bookmark:</u></p>
+
+<p>External pages can be referenced with a full URL or with a path relative to the current web page.</p>
+
+<hr>
+
+
+
+<h3>Images</h3>
+
+
+
+<p><u>HTML Images Syntax:</u></p>
+
+<p>In HTML, images are defined with the &ltimg&gt tag.</p>
+
+<p>&ltimg src="url"></p>
+
+
+
+<p><u>The alt Attribute:</u></p>
+
+<p>Describes the image content</p>
+
+
+
+<p><u>Images in Another Folder:</u></p>
+<p>If not specified, the browser expects to find the image in the same folder as the web page.</p>
+
+
+<p><u>Images on Another Server:</u></p>
+<p>Some web sites store their images on image servers.</p>
+
+<hr>
+
+<h3>Head</h3>
+
+<p><u>The HTML &lttitle&gt Element:</u></p>
+<p>defines a title in the browser tab.</p>
+
+<p><u>The HTML &lthead&gt Element:</u></p>
+<p> Is a container for metadata  and is placed between the &lthtml&gt tag and the &ltbody&gt tag.</p>
+
+<p><u>The HTML &ltmeta&gt Element:</u></p>
+<p> Is used to specify which character set is used, page description, keywords, author, and other metadata.</p>
+
+<hr>
+<hr>
+<hr>
+
+<h3>Syntax</h3>
+
+<p><u>CSS Syntax:</u></p>
+<p>A CSS rule-set consists of a selector and a declaration block</p>
+
+<p><u>The element Selector:</u></p>
+<p>The element selector selects elements based on the element name.</p>
+
+<p><u>Grouping Selectors:</u></p>
+<p>To group selectors, separate each selector with a comma.</p>
+
+<p><u>CSS Comments:</u></p>
+<p>Comments are used to explain the code, and may help when you edit the source code at a later date.</p>
+
+<h3>Colors</h3>
+
+<p><u>Color Names:</u></p>
+<p>In HTML, a color can be specified by using a color name</p>
+
+<p><u>Hexadecimal Colors:</u></p>
+<p>In HTML, a color can be specified using a hexadecimal value in the form:
+#rrggbb</p>
+
+<hr>
+
+<h3>Backgrounds</h3>
+
+<p><u>Background Color:</u></p>
+<p>The "background-color" property specifies the background color of an element.</p>
+
+<p><u>Background Image:</u></p>
+<p>The "background-image" property specifies an image to use as the background of an element.</p>
+
+<p><u>Background Image - Repeat Horizontally or Vertically:</u></p>
+<p>Repeated only horizontally use "background-repeat: repeat-x "</p>
+
+<p><u>Background Image - Fixed position:</u></p>
+<p>To specify that the background image should be fixed use the "background-attachment" property</p>
+
+<hr>
+
+<h3>Text</h3>
+
+<p><u>Text Color:</u></p>
+<p>The "color" property is used to set the color of the text.</p>
+
+<p><u>Text Alignment:</u></p>
+<p>The "text-align" property is used to set the horizontal alignment of a text.</p>
+
+<p><u>Text Decoration:</u></p>
+<p>The "text-decoration" property is used to set or remove decorations from text.</p>
+
+<p><u>Text Transformation:</u></p>
+<p>The "text-transform" property is used to specify uppercase and lowercase letters in a text.</p>
+
+<hr>
+
+<h3>Fonts</h3>
+
+<p><u>Difference Between Serif and Sans-serif Fonts:</u></p>
+<p>Serif fonts have small lines at the ends on some characters / "Sans" means without - these fonts do not have the lines at the ends of characters</p>
+
+<p><u>Font Family:</u></p>
+<p>The font family of a text is set with the "font-family" property.</p>
+
+<p><u>Font Style:</u></p>
+<p>The "font-style" property is mostly used to specify italic text.</p>
+
+<p><u>Font Size:</u></p>
+<p>The "font-size" property sets the size of the text.</p>
+
+<p><u>Set Font Size With Pixels:</u></p>
+<p>Setting the text size with pixels gives you full control over the text size. Bsp: font-size: 40px;</p>
+
+<p><u>Set Font Size With Em:</u></p>
+<p>To allow users to resize the text.</p>
+
+<p><u>Font Weight:</u></p>
+<p>The font-weight property specifies the weight of a font. Bsp: font-weight: normal;</p>
+
+<hr>
+
+<h3>Link</h3>
+
+<p><u> Styling Links:</u></p>
+<p>Links can be styled with any CSS property (e.g. color, font-family, background, etc.).</p>
+
+<hr>
+
+<h3>Combinators</h3>
+
+<p><u> Descendant Selector:</u></p>
+<p>The descendant selector matches all elements that are descendants of a specified element. Bsp: div</p>
+
+<p><u> Child Selector:</u></p>
+<p>The child selector selects all elements that are the immediate children of a specified element. Bsp: div > p</p>
+
+<p><u> Adjacent Sibling Selector:</u></p>
+<p>The adjacent sibling selector selects all elements that are the adjacent siblings of a specified element. Bsp: div + p</p>
+
+<p><u>General Sibling Selector:</u></p>
+<p>The general sibling selector selects all elements that are siblings of a specified element. Bsp: div ~ p</p>
+
+<hr>
+
+<h3>Pseudo Classes</h3>
+
+<p><u>Syntax:</u></p>
+<p>selector:pseudo-class {
+    property:value;
+} </p>
+
+<p><u>Anchor Pseudo-classes:</u></p>
+<p>Links can be displayed in different ways</p>
+
+<p><u>Hover on :</u></p>
+<p>div:hover {
+    background-color: blue;
+} </p>
+
+<p><u>CSS - The :first-child Pseudo-class:</u></p>
+<p>The "":first-child" pseudo-class matches a specified element that is the first child of another element. Bsp: p :first-child {
+    color: blue;
+} </p>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+
+
+
+
+<h2>Questions + Answers</h2>
+
+  <br>
+
+  <h2>HTML</h2>
+
+  <p><u>Name the components of html elements properly</u></p>
+
+  <p>A: &lt!DOCTYPE html&gt, The HTML document itself begins with &lthtml&gt and ends with &lt/html&gt.</p>
+
+  <p><u>Identify void elements and how they are denoted</u></p>
+
+  <p>A: void elements just have a start tag but no end tag, like &ltbr&gt</p>
+
+
+  <p><u>Identify attributes</u></p>
+
+  <p>A:</p>
+
+
+<p><u>Write down the correct DOCTYPE declaration for html 5</u></p>
+
+  <p>A: &lt!DOCTYPE html&gt</p>
+
+
+  <p><u>Write down syntactically correct statements for the following element</u></p>
+
+
+  <p>Article (&ltarticle&gt)</p>
+
+  <p>Body (&ltbody&gt)</p>
+
+  <p>line break (&ltbr/&gt)</p>
+
+  <p>Headings (&lth1&gt, ...)</p>
+
+  <p>Section with meta-information (&lthead&gt)</p>
+
+  <p>Top level element (&lthtml&gt)</p>
+
+  <p>Image named Team.jpg (&ltimg src="Team.jpg"&gt)</p>
+
+  <p>Paragraph (&ltp&gt)</p>
+
+  <p>Section (&ltsection&gt)</p>
+
+  <p>Label appearing in the title bar (&lttitle&gt)</p>
+
+  <p>Link to other pages (&lta&gt)</p>
+
+  <p>Comment</p>
+
+  <p>Head with title and meta elements</p>
+
+<hr>
+
+  <h2>CSS</h2>
+
+
+
+  <p><u>Name the components of a css rule properly</u></p>
+
+  <br>A: selector and a declaration block
+
+
+
+  <p><u>Use combinators properly: direct child, descendant, adjacent sibling, sibling</u></p>
+
+    <p>A: descendant selector (space) child selector (>) adjacent sibling selector (+) general sibling selector (~)</p>
+
+
+
+  <p><u>Specify colors by color names and in hexadecimal notation</u></p>
+
+    <p>A: rgba(255, 99, 71, 0.5);</p>
+
+
+
+  <p><u>Declarations for color, background color</u></p>
+
+    <p>A: They can be specified by names (e.g. red) or by hexadecimal values. (e.g. #ffac4d)</p>
+
+    <p>They are specified by the rule 'color'.</p>
+
+    <p>Same can be used for the rule 'background-color'!;</p>
+
+
+
+  <p><u>Pseudo classes for the &lta&gt element</u></p>
+
+    <p>A:</p>
+
+
+
+  <p><u>Declaration for background image</u></p>
+
+    <p>A: background-image: url("bgdesert.jpg");</p>
+
+
+
+  <p><u>Declaration for text alignment (left, right, center, justify)</u></p>
+
+    <p>A: text-align: center;</p>
+
+
+
+  <p><u>Declaration for text decoration (overline, underline, line-through)</u></p>
+
+    <p>A: text-decoration-style: solid</p>
+
+
+
+  <p><u>Declaration for text transformation (uppercase, lowercase, capitalize)</u></p>
+
+    <p>A: text-transform: uppercase;  text-transform: lowercase; text-transform: capitalize;</p>
+
+
+
+  <p><u>Declarations for font families</u></p>
+
+    <p>A: font-family: "Times New Roman", Times, serif;</p>
+
+
+
+  <p><u>Declarations for font style normal and italic</u></p>
+
+    <p>A: font-style: normal; font-style: italic;</p>
+
+
+
+  <p><u>Declarations for font sizes</u></p>
+
+    <p>A: font-size: 40px;</p>
+
+
+
+  <p><u>Declarations for font weights</u></p>
+
+    <p>A: font-weight: normal; font-weight: bold;</p>
+
+  <p>A2: A font can be marked as heavier, using the 'weight' tag.</p>
+
+
+
+
+
+
+</html>
